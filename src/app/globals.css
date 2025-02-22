@@ -7,15 +7,68 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+} */
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("/fonts/HelveticaNeueCyr-Light.woff") format("woff");
+  font-weight: 300; /* Normal weight */
+  font-style: normal;
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("/fonts/HelveticaNeueCyr-Roman.woff") format("woff");
+  font-weight: 400; /* Normal weight */
+  font-style: normal;
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("/fonts/HelveticaNeueCyr-Medium.woff") format("woff");
+  font-weight: 500; /* Normal weight */
+  font-style: normal;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  /* color: var(--background); */
+  /* background: var(--foreground); */
+  font-family: "Helvetica Neue", sans-serif;
+}
+.blog-post p {
+  @apply mb-4;
+}
+.blog-post h2 {
+  @apply text-2xl font-medium mb-2;
+}
+/* h2 {
+  @apply text-2xl font-medium mb-2;
+} */
+/* h3 {
+  @apply text-xl font-medium mb-2;
+} */
+/* a {
+  @apply underline text-zinc-700 dark:text-zinc-300;
+} */
+table {
+  @apply w-full border-collapse border
+  border-zinc-300 mb-6;
+}
+
+/* Style table header cells */
+th {
+  @apply bg-zinc-300 dark:bg-zinc-700
+  p-3;
+}
+
+/* Style table body cells */
+td {
+  @apply border border-zinc-300
+  p-3 text-center;
+}
+ul {
+  @apply list-disc ml-3 mb-3;
 }
