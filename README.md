@@ -28,7 +28,7 @@ A customizable portfolio website template built with Next.js, designed to help d
 
 ## Demo
 
-Check out the live demo: [https://your-portfolio-demo-link.com](https://your-portfolio-demo-link.com)
+Check out the live demo: [https://portfolio-website-chi-bay.vercel.app/](https://portfolio-website-chi-bay.vercel.app/)
 
 ## Getting Started
 
