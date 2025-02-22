@@ -1,5 +1,5 @@
 import Link from "next/link";
-import getPostMetaData from "@/app/utils/getPostMetaData";
+import getPostMetaData from "@/utils/getPostMetaData";
 import BlogCard from "./BlogCard";
 
 import { motion } from "motion/react";

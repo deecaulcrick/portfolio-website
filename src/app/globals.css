@@ -50,9 +50,9 @@ body {
 /* h3 {
   @apply text-xl font-medium mb-2;
 } */
-/* a {
+.blog-post a {
   @apply underline text-zinc-700 dark:text-zinc-300;
-} */
+}
 table {
   @apply w-full border-collapse border
   border-zinc-300 mb-6;

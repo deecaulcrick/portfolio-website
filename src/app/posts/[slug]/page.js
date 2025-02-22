@@ -2,7 +2,7 @@ import fs from "fs";
 import BlogPost from "@/components/BlogPost";
 
 import matter from "gray-matter";
-import getPostMetaData from "../../utils/getPostMetaData";
+import getPostMetaData from "../../../utils/getPostMetaData";
 
 const getPostContent = (slug) => {
   const folder = "all-posts/";
